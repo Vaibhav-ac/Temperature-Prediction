@@ -1,6 +1,6 @@
 # Temperature Prediction
 
-This notebook implements a Recurrent Neural Network (RNN) model for time series analysis to predict the mean temperature by analyzing previous days' data. The implementation of the neural network model was done using [Keras](https://keras.io/).
+This notebook implements a many-to-one Recurrent Neural Network (RNN) model for time series analysis to predict the mean temperature by analyzing previous days' data. The implementation of the neural network model was done using [Keras](https://keras.io/).
 
 Instead of RNNs, Long Short-Term Memory networks (LSTMs) can also be used. Here, the window size for previous data was taken as 7 days (one week) to predict the mean temperature for the 8th day. As 7 days is not a very long context, RNNs can work just fine.
 
